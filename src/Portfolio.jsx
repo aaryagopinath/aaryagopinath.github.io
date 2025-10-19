@@ -44,7 +44,7 @@ export default function Portfolio() {
           description:
             "Built a Spring Boot application for semantic search across TXT and PDF documents. Implemented embeddings using Spring AI + Ollama and used Postgres pgvector for similarity search. Added a grammar correction feature that automatically fixes grammar and spelling in any uploaded document or entered text. Containerized the application with Docker for reproducible deployments.",
           tech: ["Java", "Spring Boot", "Spring AI", "Ollama", "Postgres (pgvector)", "Docker"],
-          repo: "https://github.com/aaryagopinath/ai-semantic-project",
+          repo: "https://github.com/aaryagopinath/ai-search-doc",
           demo: "",
     },
 //     {
