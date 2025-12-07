@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 export default function Portfolio() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
    const [formData, setFormData] = useState({ name: "", email: "", message: "" });
     const [status, setStatus] = useState("");
  useEffect(() => {
@@ -73,8 +73,7 @@ export default function Portfolio() {
             <div>
               <h1 className="text-2xl font-extrabold">Aarya Nair</h1>
               <p className="text-sm text-gray-600 dark:text-gray-300">
-                Full Stack Developer • Java | Spring Boot | React • Open to UAE
-                opportunities
+                Full Stack Developer • Java | Spring Boot | Python | RESTAPI | MySQL | React
               </p>
             </div>
 
@@ -304,8 +303,7 @@ export default function Portfolio() {
           <footer className="py-6 text-center text-sm text-gray-600 dark:text-gray-300">
             <p>Built by Aarya Nair • © {new Date().getFullYear()}</p>
             <p className="mt-2">
-              Replace placeholder links, screenshots and resume with your actual
-              content before publishing.
+
             </p>
           </footer>
         </div>
