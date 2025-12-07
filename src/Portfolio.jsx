@@ -47,6 +47,14 @@ export default function Portfolio() {
           repo: "https://github.com/aaryagopinath/ai-search-doc",
           demo: "",
     },
+{
+       title: "Inventory Management",
+          description:
+            "A complete Inventory Management System built with a React + Tailwind + shadcn UI frontend and a FastAPI backend. The system provides essential CRUD operations, smart stock monitoring, and expiry detection to help users manage products effectively.",
+          tech: ["Python", "FastAPI", "React", "Typescript", "Tailwind CSS"],
+          repo: "https://github.com/aaryagopinath/inventory-mgmt",
+          demo: "",
+    },
 //     {
 //       title: "Full Stack Maritime App",
 //       description:
@@ -105,10 +113,8 @@ export default function Portfolio() {
                 Hi, I’m Aarya
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                A Full Stack Developer with 2+ years of experience building
-                scalable applications using Java, Spring Boot, React, and MySQL.
-                I love integrating AI into real-world systems — check out my AI
-                Semantic Analysis project below.
+
+              Full-stack developer with 2+ years of experience in Java, Spring Boot, Python, React, and MySQL, focused on building scalable products and bringing AI capabilities into everyday applications.
               </p>
 
               <div className="flex gap-3">
@@ -135,6 +141,8 @@ export default function Portfolio() {
                 {[
                   "Java",
                   "Spring Boot",
+                  "Python",
+                  "FastAPI",
                   "React",
                   "REST APIs",
                   "MySQL",
@@ -156,7 +164,7 @@ export default function Portfolio() {
                   Preferred Roles
                 </h4>
                 <p className="text-sm">
-                  Full Stack Developer, Backend Engineer (Java), AI Integration
+                  Full Stack Developer, Backend Engineer, AI Integration
                 </p>
               </div>
             </div>
